@@ -1,0 +1,18 @@
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\chinm\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\chinm\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "d:\finalproject\snake2.py", line 156, in perform_actions
+    self.end_game()
+  File "d:\finalproject\snake2.py", line 199, in end_game     
+    if self.score >=challenge:
+                    ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'challenge' where it is not associated with a value
+
+
+
+error in snake
+why????
